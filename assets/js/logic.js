@@ -25,6 +25,10 @@ var submitBtn = document.getElementById('submit');
 
 var feedbackEl = document.getElementById('feedback');
 
+// audio stuff
+var correctSound = new Audio('./assets/sfx/correct.wav');
+var incorrectSound = new Audio('./assets/sfx/incorrect.wav');
+
 // starting timer value
 var timeCounter = 75;
 
@@ -99,8 +103,10 @@ function showQuestion(questionNum, feedback=null) {
         // show appropriate feedback
         if (feedback===true) {
             showFeedback('Correct!');
+            correctSound.play();
         } else {
             showFeedback('Wrong!');
+            incorrectSound.play();
         }
     }
 
@@ -220,8 +226,10 @@ choicesEl.addEventListener('click', function(event) {
             // which probably isn't the best solution but it works
             if (isCorrect) {
                 showFeedback('Correct!')
+                correctSound.play();
             } else {
                 showFeedback('Wrong');
+                incorrectSound.play();
             }
 
             // get the numeric score

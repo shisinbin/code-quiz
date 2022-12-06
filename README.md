@@ -29,7 +29,7 @@ When the quiz is started, a timer begins, which is shown in the top right of the
 
 ![screenshot of console output](assets/img/ss2.png)
 
-When the user clicks on an answer, they are directed to the next question. If they answer correctly, they are given feedback on the bottom saying they got it correct. If they answer incorrectly they get feedback they got it wrong, and more importantly 10 seconds is deducted from the timer.
+When the user clicks on an answer, they are directed to the next question. If they answer correctly, they are given feedback on the bottom saying they got it correct (as well as a suitable sound!). If they answer incorrectly they get feedback they got it wrong, and more importantly 10 seconds is deducted from the timer.
 
 ![screenshot of console output](assets/img/ss3.png)
 
