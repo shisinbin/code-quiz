@@ -202,7 +202,6 @@ startBtn.addEventListener('click', function() {
 choicesEl.addEventListener('click', function(event) {
     // find the element that is being clicked on
     var element = event.target;
-    console.log(element);
 
     // check if button has been clicked
     if (element.matches('button')) {
@@ -223,7 +222,6 @@ choicesEl.addEventListener('click', function(event) {
             timeCounter -= 10; // 10 second penalty if wrong
             timeEl.textContent = timeCounter; // need to add this so that it immediately changes time on screen
         }
-        console.log(isCorrect);
 
         // check if another question is possible
         if (questionPointer < numberOfQuestions) {
