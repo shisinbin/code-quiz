@@ -41,6 +41,7 @@ If their score is submitted, the user is taken to a new page that shows the lead
 
 ![screenshot of console output](assets/img/ss5.png)
 
+> **Warning**: the quiz includes annoying feedback sounds (at least in my opinion!). So users might need to turn down or mute their volume before starting!
 
 ## Credits
 
