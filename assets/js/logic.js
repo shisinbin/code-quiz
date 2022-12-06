@@ -56,9 +56,16 @@ function startTimer() {
         // check if counter's reached 0
         if (timeCounter < 0) {
             clearTimeout(timer);
-            console.log('hey, timer stopped');
-            // reset counter
-            timeCounter = 5;
+
+            // set user score to zero
+            userScore = 0;
+
+            // give em some feedback
+            showFeedback('You ran out of time!')
+            incorrectSound.play();
+
+            // end game
+            endGame();
         }
     }, 1000);
 
