@@ -156,7 +156,7 @@ function showFeedback(message) {
 // it adds the new score to the locally stored object
 // that contains all scores, sorts it, then puts all scores back
 function storeScore() {
-    var scoreEntry = {initial: initials, score: userScore};
+    var scoreEntry = {initials: initials, score: userScore};
     var currentScores = JSON.parse(localStorage.getItem('quiz_highscores'));
     // check if it's null
     if (currentScores === null) {

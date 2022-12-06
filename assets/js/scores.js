@@ -20,7 +20,7 @@ function renderScores() {
             var li = document.createElement('li');
 
             // set inner text of li to entry
-            li.innerText = `${entry.initial} - ${entry.score}`;
+            li.innerText = `${entry.initials} - ${entry.score}`;
 
             // append to list
             scoresList.appendChild(li);
