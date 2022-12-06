@@ -121,7 +121,7 @@ function showQuestion(questionNum, feedback=null) {
     questionPointer++;
 }
 
-// function to show the end screen and deets
+// function to show the end screen and final score
 function endGame() {
     // hide the question div
     questionsEl.setAttribute('class', 'hide');
