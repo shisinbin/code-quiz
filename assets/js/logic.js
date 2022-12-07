@@ -139,17 +139,10 @@ function showFeedback(message) {
     feedbackEl.setAttribute('class', 'feedback');
     feedbackEl.innerText = message;
 
-    // show feedback but only briefly.
-    // there's probably a better way to do this
-    // but it works so leaving it for now
-    var feedbackTime = 1;
-    feedbackTimer = setInterval(function() {
-        feedbackTime--;
-        if (feedbackTime === 0) {
-            clearTimeout(feedbackTimer);
-            feedbackEl.setAttribute('class', 'feedback hide');
-        }
-    }, 1000)
+    // wait 1.5 seconds before hiding feedback
+    setTimeout( function() {
+        feedbackEl.setAttribute('class', 'feedback hide');
+    }, 1500);
 }
 
 // a function to store the score by the user.
