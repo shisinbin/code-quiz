@@ -52,9 +52,11 @@ While doing the work and challenge this week I also learnt about, briefly used, 
 Other credits:
 - [How to play a sound with JavaScript](https://gomakethings.com/how-to-play-a-sound-with-javascript/)
 - [How to take a screenshot on a Google Chrome browser in 4 different ways, using a simple trick](https://www.businessinsider.com/guides/tech/how-to-screenshot-on-google-chrome?r=US&IR=T)
-- [NetNinja - JavaScript timers (Youtube)](https://www.youtube.com/watch?v=Az5J_EkhYCY)
+- [NetNinja - JavaScript timers \[Youtube\]](https://www.youtube.com/watch?v=Az5J_EkhYCY)
 - [Check if String contains any Letters in JavaScript](https://bobbyhadz.com/blog/javascript-check-if-string-contains-any-letter)
 - [Sort an Array of Objects in JavaScript](https://www.javascripttutorial.net/array/javascript-sort-an-array-of-objects/)
+- [tim.kahn - awww 01.wav \[freesound\]](https://freesound.org/people/tim.kahn/sounds/336998/)
+- [zut50 - yay.mp3 \[freesound\]](https://freesound.org/people/zut50/sounds/162395/)
 
 The HTML and CSS were provided by the course and not created by myself.
 
