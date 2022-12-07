@@ -1,7 +1,6 @@
-
 // global variables for tracking game
 var questionPointer = 0;
-var numberOfQuestions = questions.length; // could be a constant instead??
+var numberOfQuestions = questions.length;
 var userScore;
 var initials;
 var timer;
@@ -9,25 +8,22 @@ var feedbackTimer;
 
 // let's grab some html elements
 var timeEl = document.getElementById('time');
-
 var startEl = document.getElementById('start-screen');
 var startBtn = document.getElementById('start');
-
 var questionsEl = document.getElementById('questions');
 var questionTitle = document.getElementById('question-title');
 var choicesEl = document.getElementById('choices');
-
 var endEl = document.getElementById('end-screen');
 var finalScoreEl = document.getElementById('final-score');
-
 var initialsEl = document.getElementById('initials');
 var submitBtn = document.getElementById('submit');
-
 var feedbackEl = document.getElementById('feedback');
 
 // audio stuff
 var correctSound = new Audio('./assets/sfx/correct.wav');
 var incorrectSound = new Audio('./assets/sfx/incorrect.wav');
+var yay = new Audio('./assets/sfx/yay.mp3');
+var awww = new Audio('./assets/sfx/awww.wav');
 
 // starting timer value
 var timeCounter = 75;
@@ -62,7 +58,7 @@ function startTimer() {
 
             // give em some feedback
             showFeedback('You ran out of time!')
-            incorrectSound.play();
+            awww.play();
 
             // end game
             endGame();
@@ -224,11 +220,12 @@ choicesEl.addEventListener('click', function(event) {
             // which probably isn't the best solution but it works
             if (isCorrect) {
                 showFeedback('Correct!')
-                correctSound.play();
+                // correctSound.play();
             } else {
                 showFeedback('Wrong');
-                incorrectSound.play();
+                // incorrectSound.play();
             }
+            yay.play();
 
             // get the numeric score
             userScore = Number(timeCounter);
