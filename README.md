@@ -33,7 +33,7 @@ When the user clicks on an answer, they are directed to the next question. If th
 
 ![screenshot of console output](assets/img/ss3.png)
 
-This continues until the last question is answered, at which point the user's score is shown along with an invitation to log this score with their initial to a leaderboard of high scores.
+This continues until the last question is answered, at which point the user's score is shown along with an invitation to log this score with their initials to a leaderboard of high scores.
 
 ![screenshot of console output](assets/img/ss4.png)
 
@@ -48,6 +48,12 @@ If their score is submitted, the user is taken to a new page that shows the lead
 As per usual, [Stack Overflow](https://stackoverflow.com) posts via [Google](https://google.com). I can't credit individual posts because I broke my browser while trying a for loop which meant I closed all tabs.
 
 While doing the work and challenge this week I also learnt about, briefly used, and was just generally all-round amazed by [ChatGPT](https://chat.openai.com) ([Guardian article](https://www.theguardian.com/technology/2022/dec/04/ai-bot-chatgpt-stuns-academics-with-essay-writing-skills-and-usability)). Will Stack Overflow soon be a thing of a past??
+
+Other credits:
+- [How to play a sound with JavaScript](https://gomakethings.com/how-to-play-a-sound-with-javascript/)
+- [How to take a screenshot on a Google Chrome browser in 4 different ways, using a simple trick](https://www.businessinsider.com/guides/tech/how-to-screenshot-on-google-chrome?r=US&IR=T)
+- [NetNinja - JavaScript timers (Youtube)](https://www.youtube.com/watch?v=Az5J_EkhYCY)
+- [Check if String contains any Letters in JavaScript](https://bobbyhadz.com/blog/javascript-check-if-string-contains-any-letter)
 
 The HTML and CSS were provided by the course and not created by myself.
 
