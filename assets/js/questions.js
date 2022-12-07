@@ -21,8 +21,8 @@ var questions = [
         answerIndex: 2
     },
     {
-        question: "What's a good method to use to stop an interval timer?",
-        choices: ['clearInterval()', 'clearTimeout()', 'clearTimer()', 'terminateInterval()'],
+        question: "What's a method that can be used to stop an interval timer?",
+        choices: ['clearTimer()', 'clearTimeout()', 'setTimeout()', 'terminateInterval()'],
         answer: 'clearTimeout()',
         answerIndex: 1
     },
